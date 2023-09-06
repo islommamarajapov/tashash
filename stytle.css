@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700;800&family=Jost:ital,wght@0,600;1,300;1,500;1,700;1,900&family=Lato:ital@0;1&family=Literata:opsz,wght@7..72,900&family=Playfair+Display:wght@900&family=Poppins:ital,wght@0,400;0,500;0,600;0,900;1,200;1,800;1,900&family=Raleway:wght@800&family=Roboto:wght@700&display=swap');
+.container{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+.img{
+    margin-top: 83px;
+    margin-left: 70px;
+}
+.number{
+    color: var(--green, #007F00);
+font-family: Clear Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 113.705%;
+position: relative;
+top: -80px;
+left: 299px;
+}
+.rus{
+    color: var(--black-almost, #222);
+font-family: Clear Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 113.705%; /* 13.645px */
+text-transform: uppercase;
+position: relative;
+top: -115px;
+left: 490px;
+}
+.line{
+    position: relative;
+    top: -140px;
+    left: 490px;
+}
+.clock{
+    position: relative;
+    top: -180px;
+    left: 690px;
+}
+.letter{
+    position: relative;
+    top: -222px;
+    left: 900px;
+}
+.country{
+    position: relative;
+    top: -265px;
+    left: 1300px;
+}
+span{
+    color: gray;
+}
+.line2{
+    position: relative;
+    top: -335px;
+    left: 1300px;
+}
+.market{
+    position: relative;
+    top: -280px;
+    left: 1400px;
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    position: relative;
+    top: -310px;
+    left: 299px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+.ul:hover{
+    color: orange;
+}
+.ha{
+    width: 1525px;
+}
+.ov{
+    color: #FFF;
+/* reg12 */
+font-family: Clear Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 113.705%; /* 13.645px */
+text-transform: uppercase;
+position: relative;
+top: -40px;
+left: 640px;
+}
+.block{
+    position: relative;
+    top: -50px;
+}
+.navbar{
+    width: 661px;
+height: 520px;
+flex-shrink: 0;
+border-radius: 3px;
+background: linear-gradient(0deg, #FFF 0%, #FFF 100%), linear-gradient(226deg, #2FA365 1.87%, #15545C 82.28%);
+/* blue shadow y2b4 */
+box-shadow: 0px 2px 4px 0px rgba(0, 24, 112, 0.21);
+position: relative;
+left: 750px;
+top: 430px;
+}
+.images{
+    position: relative;
+    top: 70px;
+    left: 30px;
+}
+.shop{
+    color: var(--green, #007F00);
+font-family: Clear Sans;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: relative;
+top: 31px;
+left: 30px;
+}
+.you{
+    position: relative;
+    top: -130px;
+    left: 250px;
+}
+.btn{
+    color: orange;
+    border: solid 2px orange;
+    display: inline-flex;
+padding: 9px 31px 12px 31px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: #FFf;
+position: relative;
+left: 50px;
+transition: .5s ease;
+font-size: 18px;
+}
+.btn:hover{
+    background: orange;
+    color: #FFf;
+}
+  
+  .umumiy{
+    width: 1440px;
+    height: 556px;
+    background: var(--krot-gradient, linear-gradient(270deg, #2FA365 0%, #15545C 100%));
+}
+.umumiy h1{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 72px;
+    width: 488px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+
+}
+.umumiy p{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 36px;
+    width: 427px;
+    position: relative;
+    left: 50px;
+}
+.barcha{
+    width: 2500px;
+    display: flex;
+    position: relative;
+    top: -850px;
+}
+.doctor{
+    position: relative;
+    margin-left: -650px;
+    margin-top: 50px;
+}
+.logo{
+    margin-left: 200px;
+    margin-top: 270px;
+}
+.xaxa{
+    margin-top: -800px;
+    margin-left: 45px;
+}
+.finish .box-1{
+    width: 663px;
+    height: 520px;
+    background-image: url(./figma-hompage/Rectangle\ 12.png);
+    position: relative;
+    top: 50px;
+}
+.finish{
+    margin-left: 50px;
+}
+.finish .h2{
+    color: var(--FFFFFF, #FFF);
+    font-size: 39px;
+    margin-left: 40px;
+    position: absolute; 
+    margin-top: 30px;
+}
+.finish .text-1{
+    color: #FFF;
+    position: absolute;
+    margin-top: 100px;
+    width: 450px;
+    margin-left: 40px;  
+}
+.finish .text-2{
+    color: #FFF;
+    position: absolute;
+    margin-top: 180px;
+    width: 480px;
+    margin-left: 40px;
+}
+.finish .text-3{
+    color: #FFF;
+    position: absolute;
+    width: 500px;
+    margin-top: 280px;
+    margin-left: 40px;
+}
